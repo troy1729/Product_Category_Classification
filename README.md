@@ -1,7 +1,7 @@
 # Product_Category_Classification
 
 Dependencies:
-Pandas: 1.1.5 
+Pandas: 1.1.5
 Numpy: 1.19.5 
 nltk: 3.2.5 
 tensorflow: 2.4.1 
@@ -10,10 +10,15 @@ sklearn: 0.22.2.post1
 
 Cleaning & Processing Data:
 >> Product name and description combined is chosen as the feature.
+>> 
 >> NaN rows are removed from the data.
+>> 
 >> Primary category is segregated from the product category tree.
+>> 
 >> Every character except alphabets are substituted with a space followed by lower casing the sentences and stemming.
+>> 
 >> Categories are visualised and top 10 categories are chosen for the classification task to avois imbalanced dataset problem and keeping the task feasible.
+>> 
 >> Rows other then top 10 categories hace are removed from the data.
 
 Model building and Training:
