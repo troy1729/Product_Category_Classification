@@ -42,11 +42,11 @@ Model building and Training:
 Matrices and results:
 >> Naive Bayes Classifier: Average Test Accuracy: 0.9846
 >> 
-                           Average AUC Score: 0.9979
+>>                         Average AUC Score: 0.9979
                            
 >> LSTM-DNN: Average Test Accuracy: 0.9792
 >> 
-             Average AUC Score: 0.9991
+>>           Average AUC Score: 0.9991
 
 Improvement Factor:
 >>Other data processing techniques and vectorisation techniques can be used though both the models according to matrices reading are of production level. 1DCNN-LSTM models can also be experimented with other then that gradient boosting methods can also be proved to be a good choice. On the top of all these suggestions hyperparameters including no. of layers can be experimented with to work on the accuracy score.
